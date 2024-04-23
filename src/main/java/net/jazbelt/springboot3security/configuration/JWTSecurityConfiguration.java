@@ -95,7 +95,7 @@ public class JWTSecurityConfiguration {
     @Bean
     public KeyPair keyPair() throws Exception {
         var kpGenerator = KeyPairGenerator.getInstance("RSA");
-        kpGenerator.initialize(4096);
+        kpGenerator.initialize(2048);
         return kpGenerator.generateKeyPair();
     }
 
