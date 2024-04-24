@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 record JwtResponse(String token) {}
 
-@RestController
+//@RestController
 public class JwtAuthController {
 
     private final JwtEncoder jwtEncoder;

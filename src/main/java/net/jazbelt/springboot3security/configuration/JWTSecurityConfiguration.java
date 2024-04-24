@@ -33,7 +33,7 @@ import java.security.interfaces.RSAPublicKey;
 import java.util.List;
 import java.util.UUID;
 
-@Configuration
+//@Configuration
 public class JWTSecurityConfiguration {
 
     @SuppressWarnings("removal")
